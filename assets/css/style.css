@@ -98,6 +98,9 @@ body {
     font-size: 32px;
     width: 15%;
 }
+.section-title h2 span {
+    display: block;
+}
 .right-section {
     display: flex;
     flex-wrap: wrap;
