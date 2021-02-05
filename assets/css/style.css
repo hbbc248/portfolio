@@ -7,6 +7,7 @@
     --color1: #38c4be;
     --color2: #383838;
     --color3: #eeefff;
+    --color4: #258682;
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -77,7 +78,7 @@ header nav ul li a {
     color: var(--color2);
 }
 /* Hero Style End */
-/* Section styles start */
+/* Section style start */
 body {
     background-color: var(--color3);
 }
@@ -150,6 +151,8 @@ body {
     width: 100%;
     border: 4px solid var(--color1);    
 }
+/* Section style end */
+/* footer style start*/
 .contacts {
     justify-content: space-around;
 }
@@ -165,6 +168,25 @@ body {
     border-bottom: 3px solid var(--color2);
     margin-bottom: 15px;
 }
+/* footer section end */
+/* pseudo (hover) style start */
+header nav ul li a:hover {
+    color: var(--color4);
+}
+header nav ul li:hover {
+    border-color: var(--color4);
+}
+.work-main a:hover {
+    opacity: 0.8;
+}
+.work-secondary a:hover {
+    opacity: 0.8;
+}
+.contact-me a:hover {
+    color: blue;
+    border-color: blue;
+}
+/* pseudo (hover) style end */
 /* Media query for smaller desktops screens and smaller */
 @media screen and (max-width: 980px) {
     header {
