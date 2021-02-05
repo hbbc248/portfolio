@@ -170,11 +170,11 @@ body {
 }
 /* footer section end */
 /* pseudo (hover) style start */
-header nav ul li a:hover {
-    color: var(--color4);
-}
 header nav ul li:hover {
     border-color: var(--color4);
+}
+header nav ul li:hover > #hover {
+    color: var(--color4);
 }
 .work-main a:hover {
     opacity: 0.8;
