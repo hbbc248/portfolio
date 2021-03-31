@@ -6,7 +6,7 @@ The ultimate purpose of a portfolio website is to provide a way for you to land 
 
 ## Website Screenshot
 
-![image](./assets/images/portfolio-screenshot.jpg)
+![image](./assets/images/portfolio-screenshot.png)
 
 
 ## Link to Website
